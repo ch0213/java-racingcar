@@ -66,12 +66,4 @@ class CarsTest {
                 .collect(Collectors.toList());
         assertThat(winners.equals(additionalMoveCars)).isTrue();
     }
-
-    @Test
-    void test() {
-        String[] split = ",a,b".split(",");
-        for (String s : split) {
-            System.out.println("[" + s + "]");
-        }
-    }
 }
